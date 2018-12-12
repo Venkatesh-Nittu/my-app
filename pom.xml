@@ -4,7 +4,7 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.5</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>my-app</name>
 
 	<url>http://maven.apache.org</url>
@@ -14,7 +14,6 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
-			<!-- <scope>provided</scope> -->
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -27,12 +26,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
+		    <url>http://34.219.225.116:8081/repository/my-app-snap/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
+		    <url>http://34.219.225.116:8081/repository/my-app-rel/</url>
 		</repository>
   	</distributionManagement>
 	
